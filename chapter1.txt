@@ -2,3 +2,8 @@
  from working directory eg story then I need to add this file to what's called a staging area, and that is basically a intermediate
 place where you can pick and choose which files inside your working directory that you want to commit.
 use the git status command
+git add chpater1.txt = to add the file into the staging area
+then git status again to see if the file has been added into the staging area
+ use present tence here 
+ git log - to see what commits youve made
+ git add . to just add all files so you dont have to add them 1by1
