@@ -1,0 +1,4 @@
+ code -r chapter1.txt = open and create file
+ from working directory eg story then I need to add this file to what's called a staging area, and that is basically a intermediate
+place where you can pick and choose which files inside your working directory that you want to commit.
+use the git status command
