@@ -5,5 +5,24 @@ use the git status command
 git add chpater1.txt = to add the file into the staging area
 then git status again to see if the file has been added into the staging area
  use present tence here 
+ git commit = to move these files from the staging are to be commited (local reposetry)
+ git push =(add to remote reposetry github) its a bit more complex than thisgit 
  git log - to see what commits youve made
- git add . to just add all files so you dont have to add them 1by1
+ git add . to just add all files so you dont have to add them 1by1(to staging area)
+ when you see HEAD -> Master that is the curret state that we are in
+git touch .gitignore (small letters this is a hidden file, check on hyper terminal if here it doesnt show)
+code .gitignore 
+to open it =open -a /Story/Visual\ Studio\ Code.app .git
+ Recap
+ inside the Story directory that is were we initialise git = git initialise
+ then git will track the changes made between the working directory and the local reposetry 
+ we use git add to push the files created in the work directory to the staging area
+ git add = to the staging is Well, sometimes you might not want to add all of your files to be tracked or all of your files to be
+committed. So the staging area is a good place to try and figure out what are the things that you want git to ignore
+and what are the things that you want to be tracked at once.
+we can use git checkout to go back -this skips from the local reposetry back to the working directory 
+git log quit = q
+first use git status to see the modified version 
+youll see this version has not been added to the staging are or commited to the local reposetry
+to checkout the diffrence between the commited version and the current version use git diff chapter2.txt = git diff "name of the file"
+git checkout "filename" = will remove all nw changes and revert back to the last version commitedg

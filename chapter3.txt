@@ -1,1 +1,18 @@
 Mjita 
+
+Or create a new repository on the command line ->
+echo "# Learn-git" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/dilikallp/Learn-git.git =transfer all our commits to a remote reposetry = on github wich is the link we paste in
+git push -u origin main/master =link up your local and remote reposetry push them to the branch called master
+this will also upload aour local reposetry to our remote reposetry
+master branch =sequential this is where your main progress is saved or commited 
+
+…Or push an existing repository from the command line  ->
+git remote add origin https://github.com/dilikallp/Learn-git.git
+git branch -M main
+git push -u origin main
+git rm --cached -r . =romove everything from the staging phase. 
