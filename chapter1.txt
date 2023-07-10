@@ -26,3 +26,4 @@ first use git status to see the modified version
 youll see this version has not been added to the staging are or commited to the local reposetry
 to checkout the diffrence between the commited version and the current version use git diff chapter2.txt = git diff "name of the file"
 git checkout "filename" = will remove all nw changes and revert back to the last version commitedg
+Lwara
